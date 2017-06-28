@@ -1,0 +1,21 @@
+<text>图标测试</text>
+<view class="icon-view">
+ <text>成功</text>
+ <icon type="success" />
+ <text>成功简版</text>
+ <icon type="success_no_circle" />
+ <text>信息</text>
+ <icon type="info" />
+ <text>警告</text>
+ <icon type="warn" />
+ <text>等待</text>
+ <icon type="waiting" />
+ <text>取消</text>
+ <icon type="cancel" />
+ <text>下载</text>
+ <icon type="download" />
+ <text>搜索</text>
+ <icon type="search" />
+ <text>清除</text>
+ <icon type="clear" />
+</view>

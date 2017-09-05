@@ -1,0 +1,148 @@
+	/* main.wxss */
+page{
+	background: #F2F2F2;
+}
+.usualCard{
+	width:665rpx;
+	height:200rpx;
+	background:#fff;
+	margin:0 auto ;
+	font-size:28rpx;
+	box-shadow:8rpx 8rpx 8rpx #acacac;
+	margin-top: 27rpx;
+}
+	.usualCardFrist{
+		display:flex;
+		height:65rpx;
+		line-height:65rpx;
+	}
+		.usualCardLoc{
+			flex:1;
+			text-align:right;
+		}
+			.usualCardLocSign{
+				border:1px solid #CBCBCB;
+				background:#D8D8D8;
+				color:#303030;
+				width:78rpx;
+				height:45rpx;
+				float: right;
+				margin:10rpx 30rpx 0 0 ;
+				text-align:center;
+				line-height:45rpx;
+				border-radius:4rpx;
+			}
+		.usualRoadTime{
+			flex:1;
+			font-weight:600;
+			padding-left: 30rpx;
+		}
+	/*间隔样式*/
+	.usualCardMid{
+		width: 100%;
+		height: 35rpx;
+		line-height: 35rpx;
+		text-align: center;
+		font-size: 28rpx;
+		font-weight: 600;
+	}
+	.usualCardSecond{
+		display:flex;
+		height:99rpx;
+		line-height:99rpx;
+	}
+		.usualRoadStarLoc{
+			flex:4;
+			text-align:center;
+			font-weight:600;
+		}
+		.usualRoadSide{
+			flex:1;
+			border-top:1px solid #C3C3C3;
+			height:1rpx;
+			margin-top:44rpx;
+			/*display:inline-block;*/
+		}
+		.usualRoadEndLoc{
+			flex:4;
+			text-align:center;
+			font-weight:600;
+		}
+/*行程详情样式*/
+#cardDetail{
+	width: 666rpx;
+	height: 238rpx;
+	background: #CDCDCD;
+	margin:0 auto;
+	box-shadow:8rpx 8rpx 8rpx #acacac;
+}
+	.cardDetailInfo{
+		display: flex;
+		font-weight: 600;
+		margin-left: 30rpx;
+		font-size: 28rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+	}
+		.cardDetInfoPlate{
+			flex:2;
+		}
+		.cardDetInfoPho{
+			flex:3;
+		}
+	.cardDetailSetaLast{
+		font-weight: 600;
+		margin-left: 30rpx;
+		font-size: 28rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+	}
+	.cardDetailYes{
+		width: 100%;
+		height: 118rpx;
+
+	}
+
+		.cardDetailYesBtn{
+			background: #6A6A6A;
+			width: 277rpx;
+			height: 69rpx;
+			margin:25rpx auto 0;
+			text-align: center;
+			line-height: 69rpx;
+			color:white;
+			font-size: 26rpx;
+		}
+/*底部按钮区域*/
+#footerBtn{
+	width:100%;
+	height:146rpx;
+	position:fixed;
+	left:0;
+	bottom:0;
+	/*background:red;*/
+}
+	.mainBtn{
+		width:254rpx;
+		height:77rpx;
+		background:#D8D8D8;
+		border:1px solid #B7B7B7;
+		color:white;
+		text-align:center;
+		line-height:77rpx;
+		position:absolute;
+		top:0;
+		left:248rpx;
+		border-radius:77rpx;
+		font-size:27rpx;
+	}
+	.sideBtn{
+		width:81rpx;
+		height:81rpx;
+		border-radius:50%;
+		position:absolute;
+		right:50rpx;
+		top:0;
+		background:#D8D8D8;
+		border:1px solid #B7B7B7;
+	}

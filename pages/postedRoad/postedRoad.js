@@ -1,4 +1,4 @@
-// pages/mypage/mypage.js
+// postedRoad.js
 Page({
 
   /**

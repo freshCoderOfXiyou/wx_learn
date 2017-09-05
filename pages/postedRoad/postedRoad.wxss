@@ -1,0 +1,106 @@
+/* postedRoad.wxss */ 
+page{
+
+}
+#btnArea{
+	background:#F2F2F2;
+}
+#btnArea text{
+	margin-left:46rpx;
+	display:block;
+}
+.btnAreaTit{
+	color:#303030;
+	font-size:36rpx;
+	font-weight:bold;
+	margin:0 46rpx 0;
+	height:38rpx;
+}
+.btnAreaSubTit{
+	color:#7F7F7F;
+	font-size:28rpx;
+	margin:20rpx 46rpx 60rpx;
+	font-weight:600;
+	/*height:28rpx;*/
+	/*margin-bottom:80rpx;*/
+
+
+}
+.btnAreaBtn{
+	width:301rpx;
+	height:106rpx;
+	line-height:106rpx;
+	text-align:center;
+	border:1px solid #B7B7B7;
+	display:inline-block;
+	margin:0 37rpx 44rpx;  
+	background:#D8D8D8;
+	font-size:30rpx;
+	border-radius:8rpx;
+	font-weight:bold;
+	color:#303030;
+}
+
+#usualRoad{
+	background:#F2F2F2;
+	margin-top:15rpx;
+	border:1px solid #F2F2F2;
+}
+.usualRoadTit{
+	margin:21rpx 54rpx;
+	font-weight:600;
+}
+.usualCard{
+	width:665rpx;
+	height:164rpx;
+	background:#fff;
+	margin:0 auto 21rpx;
+	font-size:28rpx;
+	box-shadow:8rpx 8rpx 8rpx #acacac;
+}
+	.usualCardFrist{
+		display:flex;
+		height:65rpx;
+		line-height:65rpx;
+	}
+		.usualCardLoc{
+			flex:1;
+
+		}
+			.usualCardLocSign{
+				border:1px solid #CBCBCB;
+				background:#D8D8D8;
+				color:#303030;
+				width:78rpx;
+				height:45rpx;
+				margin:10rpx auto;
+				text-align:center;
+				line-height:45rpx;
+				border-radius:4rpx;
+			}
+		.usualRoadTime{
+			flex:4;
+			font-weight:600;
+		}
+	.usualCardSecond{
+		display:flex;
+		height:99rpx;
+		line-height:99rpx;
+	}
+		.usualRoadStarLoc{
+			flex:4;
+			text-align:center;
+			font-weight:600;
+		}
+		.usualRoadSide{
+			flex:1;
+			border-top:1px solid #C3C3C3;
+			height:1rpx;
+			margin-top:44rpx;
+			/*display:inline-block;*/
+		}
+		.usualRoadEndLoc{
+			flex:4;
+			text-align:center;
+			font-weight:600;
+		}

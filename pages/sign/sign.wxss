@@ -1,0 +1,55 @@
+/* sign.wxss */
+page{
+	background: #EFEFF4;
+}
+.signFrom{
+  margin-top: 30rpx;
+  background: white;
+}
+.formPhone{
+  display: flex;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1px solid #eaeaea;
+  margin-left: 10rpx;
+}
+.formPhone label{
+  flex: 3;
+  text-align: center;
+}
+.formPhone input{
+	flex:4;
+	line-height: 90rpx;
+	height: 90rpx;
+}
+.formPhone view{
+	flex:3;
+	color:#1AAD19;
+	border-left: 1px solid #eaeaea;
+	text-align: center;
+}
+.formVerifCode{
+	display: flex;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.formVerifCode label{
+	flex:3;
+	text-align: center;
+}
+.formVerifCode input{
+	flex: 7;
+	line-height: 90rpx;
+	height: 90rpx;
+}
+/*下一步按钮*/
+input[type=submit]{
+	background: #9AD59C;
+	margin:59rpx 40rpx 0;
+	width: 670rpx;
+	height: 94rpx;
+	border-radius: 8rpx;
+	color:white;
+	text-align: center;
+
+}

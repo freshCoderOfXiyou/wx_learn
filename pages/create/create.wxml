@@ -1,0 +1,117 @@
+<!--create.wxml-->
+<!-- 顶部按钮区域 -->
+<view id="topBtn">
+	<!-- 上班按钮 -->
+	<view class="btn">
+		<view class="btnInner">
+			上班
+		</view>
+	</view>
+	<!-- 下班按钮 --> 
+	<view class="btn"> 
+		<view class="btnInner btnSelected">
+			下班
+		</view> 
+	</view>
+	<!-- 外勤按钮 -->
+	<view class="btn">
+		<view class="btnInner">
+			外勤
+		</view>
+	</view>
+</view>
+<!-- 信息输入区域 -->
+<!-- 要求有内边距，使边框有空隙 -->
+<view id="infoArea">
+	<!-- 第一层 -->
+	<view id="infoAreaStar" class="areaFloor areaFloorBor">
+		<!-- 颜色标记 -->
+		<view class="sign">
+			<!-- 颜色块 -->
+			<view class="signBlock red" ></view>
+		</view>
+		<!-- input标记 -->
+		<view class="inputLabel">
+			出发地:
+		</view>
+		<view class="inputCon">
+			<input type="text" placeholder="输入您出发地"/>
+		</view>
+	</view>
+	<!-- 第二层 -->
+	<view id="infoAreaStar" class="areaFloor areaFloorBor">
+		<!-- 颜色标记 -->
+		<view class="sign">
+			<!-- 颜色块 -->
+			<view class="signBlock blue" id=""></view>
+		</view>
+		<!-- input标记 -->
+		<view class="inputLabel">
+			目的地：
+		</view>
+		<view class="inputCon">
+			<input type="text" placeholder="输入您目的地"/>
+		</view>
+	</view>
+	<!-- 第三层 -->
+	<view id="infoAreaThrid" class="areaFloor">
+		<!-- 左侧区域 -->
+		<view id="leftArea">
+			<view class="sign" id="lastFSign">
+				<!-- 颜色块 -->
+				<view class="signBlock blue" id=""></view>
+			</view>
+			<!-- input标记 -->
+			<view class="inputLabel" id="lastFLabel">
+				座位：
+			</view>
+			<view class="inputCon" id="seatInput">
+				<input type="number" placeholder="4"/>
+			</view>
+		</view>
+		<!-- 右侧区域 -->
+		<view id="rightArea">
+			<view class="sign" id="lastFSign">
+				<!-- 颜色块 -->
+				<view class="signBlock blue" id=""></view>
+			</view>
+			<!-- input标记 -->
+			<view id="dateInput">
+				<picker mode="date" value="{{ completeDate }}" start="2017-01-01" end="2017-12-30" bindchange="dateChangeHandle">
+					<view> {{ date }} </view>
+				</picker>
+				
+			</view>
+			<view id="timeInput">
+				<picker mode="time" value="{{ time }}" start="09:01" end="21:01" bindchange="timeChangeHandle">
+					<view> {{time}} </view>
+				</picker>
+			</view>
+		</view>
+	</view>
+</view>
+<!-- 车牌信息和联系方式 -->
+<view id="carInfo">
+	<!-- carInfo也需要设padding -->
+	<!-- 车牌 -->
+	<view class="carInfoDetail" id="carInfoDetFirst">
+		<view class="carInfoDetTit">
+			车牌：
+		</view>
+		<view class="carInfoDetCon">
+			<input type="text" class="textInput" placeholder="输入车牌信息"></input>
+		</view>
+	</view>
+	<!-- 联系方式 -->
+	<view class="carInfoDetail">
+		<view class="carInfoDetTit" >
+			联系电话：
+		</view>
+		<view class="carInfoDetCon">
+			<input type="number" class="textInput" placeholder="输入联系电话"></input>
+		</view>
+	</view>
+</view>
+
+<!-- 底部发布按钮 -->
+<view id="sendBtn">确认发布</view>

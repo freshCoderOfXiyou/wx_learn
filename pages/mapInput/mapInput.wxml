@@ -1,0 +1,4 @@
+<!--pages/mapInput/mapInput.wxml-->
+<map id="" longitude="{{ myLongitude }}" latitude="{{myLatitude}}">
+	
+</map>

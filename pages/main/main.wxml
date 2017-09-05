@@ -1,0 +1,61 @@
+
+<!-- 路线卡片 -->
+<view class="usualCard">
+	<!-- 卡片第一行内容，上班标记以及时间 -->
+	<view class="usualCardFrist">
+		<view class="usualRoadTime">
+			2017年8月11日
+		</view>
+		<!-- 上班或下班标记 -->
+		<view class="usualCardLoc">
+			<view class="usualCardLocSign">
+				下班
+			</view>
+		</view>
+	</view>
+	<!-- 卡片上间隔内容，为出发时间 -->
+	<view class="usualCardMid">
+		17:30 出发
+	</view>
+	<!-- 卡片的第二行内容，上班地点和下班地点 -->
+	<view class="usualCardSecond">
+		<!-- 上班地点 -->
+		<view class="usualRoadStarLoc">华数数字电视产业园</view>
+		<!-- 间隔符 -->
+		<view class="usualRoadSide"></view>
+		<!-- 下班地点 -->
+		<view class="usualRoadEndLoc">古荡科技园</view>
+	</view>	
+</view>
+<!-- 卡片点击出现详情层，详情层结构 -->
+<view id="cardDetail">
+	<!-- 车牌讯息和联系方式 -->
+	<view class="cardDetailInfo">
+		<view class="cardDetInfoPlate">
+			车牌：浙A12345
+		</view>
+		<view class="cardDetInfoPho">
+			联系电话：13233665544
+		</view>
+	</view>
+	<!-- 作为剩余情况 -->
+	<view class="cardDetailSetaLast">
+		作为剩余：3
+	</view>
+	<!-- 确认行程按钮 -->
+	<view class="cardDetailYes">
+		<view class="cardDetailYesBtn">
+			确认行程
+		</view>
+	</view>
+</view>
+
+<!-- 底部按钮区域 -->
+<view id="footerBtn">
+	<!-- 椭圆形“发布路线”按钮 -->
+	<view class="mainBtn">
+		发布路线
+	</view>
+	<!-- 圆形按钮 -->
+	<view class="sideBtn"></view>
+</view>

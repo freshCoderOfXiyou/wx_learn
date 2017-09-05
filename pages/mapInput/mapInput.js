@@ -1,18 +1,30 @@
-// pages/mypage/mypage.js
+// pages/mapInput/mapInput.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    myLongitude:100 ,
+    myLatitude:100
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.getLocation(function () {
+
+      this.setData(
+        {myLatitude:latitude}
+      );
+
+
+      this.setData(
+        {myLongitude:longitude}
+      );
+
+    })
   },
 
   /**

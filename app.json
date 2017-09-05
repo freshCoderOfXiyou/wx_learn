@@ -1,14 +1,20 @@
 {
   "pages": [
+    "pages/mapInput/mapInput",
+    "pages/create/create",
+    "pages/main/main",
+    "pages/postedRoad/postedRoad",
+    "pages/sign/sign",
+    "pages/star/star",
+    "pages/mypage/mypage",
     "pages/baseCon/baseCon",
     "pages/logs/logs",
-    "pages/index/index",
-    "pages/mypage/mypage"
+    "pages/index/index"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "backgroundTextStyle": "normal",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "华数顺风车",
     "navigationBarTextStyle": "black"
   }
 }

@@ -1,4 +1,4 @@
-// pages/mypage/mypage.js
+// sign.js
 Page({
 
   /**

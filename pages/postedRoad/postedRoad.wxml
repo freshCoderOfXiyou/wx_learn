@@ -1,0 +1,70 @@
+<!--postedRoad.wxml-->
+<view id="btnArea">
+	<text class="btnAreaTit" selectable="false">
+		你好，华数员工
+	</text>
+	<text class="btnAreaSubTit">
+		发布行程，寻找顺路同事
+	</text>
+	<view  class="btnAreaBtn">
+    	发布上班路线
+	</view>
+	<view  class="btnAreaBtn">
+		发布下班路线
+	</view>
+</view>
+<!-- 常用路线区域 -->
+<view id="usualRoad">
+	<!-- "常用路线标题" -->
+	<view class="usualRoadTit">
+		常用路线
+	</view>
+	<!-- 路线卡片 -->
+	<view class="usualCard">
+		<!-- 卡片第一行内容，上班标记以及时间 -->
+		<view class="usualCardFrist">
+			<!-- 上班或下班标记 -->
+			<view class="usualCardLoc">
+				<view class="usualCardLocSign">
+					下班
+				</view>
+			</view>
+			<view class="usualRoadTime">
+				17:35
+			</view>
+		</view>
+		<!-- 卡片的第二行内容，上班地点和下班地点 -->
+		<view class="usualCardSecond">
+			<!-- 上班地点 -->
+			<view class="usualRoadStarLoc">华数数字电视产业园</view>
+			<!-- 间隔符 -->
+			<view class="usualRoadSide"></view>
+			<!-- 下班地点 -->
+			<view class="usualRoadEndLoc">古荡科技园</view>
+		</view>	
+	</view>
+	<!-- 路线卡片 -->
+	<view class="usualCard">
+		<!-- 卡片第一行内容，上班标记以及时间 -->
+		<view class="usualCardFrist">
+			<!-- 上班或下班标记 -->
+			<view class="usualCardLoc">
+				<view class="usualCardLocSign">
+					下班
+				</view>
+			</view>
+			<view class="usualRoadTime">
+				17:35
+			</view>
+		</view>
+		<!-- 卡片的第二行内容，上班地点和下班地点 -->
+		<view class="usualCardSecond">
+			<!-- 上班地点 -->
+			<view class="usualRoadStarLoc">华数数字电视产业园</view>
+			<!-- 间隔符 -->
+			<view class="usualRoadSide"></view>
+			<!-- 下班地点 -->
+			<view class="usualRoadEndLoc">古荡科技园</view>
+		</view>	
+	</view>
+</view>

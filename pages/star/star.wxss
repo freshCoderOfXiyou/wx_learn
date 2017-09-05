@@ -1,0 +1,15 @@
+/* star.wxss */
+.starTit{
+  width: 750rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+    border-bottom: 1px solid black;
+}
+.starLog{
+border: 1px solid black;
+  margin-top: 310rpx;
+  margin-left: 176rpx;
+  width:400rpx;
+  height: 200rpx;
+}

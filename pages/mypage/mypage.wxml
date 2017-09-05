@@ -1,23 +1,2 @@
-<!--mypage.wxml-->
-<text>scroll view</text>
-<text>横向滚动</text>
-<scroll-view class="o1 oh" scroll-x="true" >
-  <view id="11" class="i11 i ih">A</view>
-  <view id="12" class="i12 i ih">B</view>
-  <view id="13" class="i13 i ih">C</view>
-</scroll-view>
-<text>纵向滚动</text>
-<scroll-view class="o1" scroll-y="true" scroll-with-animation="true">
-  <view class="i i11">A</view>
-  <view class="i i12">B</view>
-  <view class="i i13">C</view>
-</scroll-view>
-<!--滑动控件-->
-<text>滑块视图容器</text>
-<swiper autoplay="true" indicator-dots="true" class="o1">
-  <swiper-item class="i si i11">A</swiper-item>
-  <swiper-item class="i si i12">B</swiper-item>
-  <swiper-item class="i si i13">C</swiper-item>
-</swiper>
-<!--<text>可以移动的视图</text>-->
-<!--<movable-area></movable>-->
+<!--pages/mypage/mypage.wxml-->
+<text>pages/mypage/mypage.wxml</text>
